@@ -68,3 +68,5 @@ response = handle_response(account_name, env_name, username, password)
 jdata = process_response(response)
 
 word = parse_to_word(jdata)
+
+p1 >> music_logic(word)
