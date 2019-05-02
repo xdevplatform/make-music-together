@@ -4,7 +4,7 @@ import yaml
 
 
 def handle_auth():
-    with open("/Users/jgarson/Downloads/PyCon/secret.yaml", "r") as f:
+    with open("/path/to/your/file/secret_sample.yaml", "r") as f:
         s = yaml.load(f)
     username = s["powertrack"]["username"]
     password = s["powertrack"]["password"]
